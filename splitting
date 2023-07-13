@@ -1,7 +1,0 @@
-public List<String> split(String s){
-    List<String> l = new LinkedList<>();
-    for (int i=s.length();i >0; i++){
-        l.add(s.substring(0,i));
-    }
-    return l;
-}
